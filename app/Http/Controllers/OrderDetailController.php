@@ -3,13 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\OrderDetail;
-use Illuminate\Http\Request;
-
-<?php
-
-namespace App\Http\Controllers;
-
-use App\Models\OrderDetail;
 use App\Http\Resources\OrderDetailResource;
 use Illuminate\Http\Request;
 
@@ -62,4 +55,3 @@ class OrderDetailController extends Controller
         return response()->json(null, 204);
     }
 }
-
